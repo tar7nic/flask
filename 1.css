@@ -1,0 +1,16 @@
+h1{
+    color:red;
+    background-color: black;
+}   
+
+li{
+    color: rgb(30, 100, 210);
+}
+
+p{
+    color: #eabcea;
+}
+
+h4{
+    color: rgba(10, 40, 90, 0.6); 
+}
