@@ -1,17 +1,35 @@
-<!--14. FORM BASICS-->
+<!-- Assessment -->
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
+        <title>Assessment</title>
+        <link rel="stylesheet" href="C:\Users\Asus\OneDrive\Documents\VSC\output\.vscode\Flask\2. CSS\6.css">
     </head>
     <body>
-        <form>
-            <h1>Log In</h1>
-            <h1>Please input your email and password.</h1>
-            <input type="email" value="enter your email id here">
-            <input type="password" value="Enter your password here">
-            <input type="color" value="Enter color here">
-            <input type="submit" value="Enter">
-        </form>
+        <h1>Welcome to puppy blog</h1>
+        <div>
+        <p>Thanks for visiting this site!</p>
+        </div>
+        <h2>What is this site for?</h2>
+        <p>this site can do 3 things:</p>
+        <ol>
+            <li>Take in text input</li>
+            <li>Take in login info</li>
+            <li> <a href="https://www.google.com"> Take you to google so you can search for pups!</a></li>
+        </ol>
+        <h2>Please login to save your blog post</h2>
+        <form class="loginform" method="get">
+            <label for="mail">Email:</label>
+            <input type="email"  id="mail" value="">
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" value="">
+
+            <input type="submit" name="" value="Log In">
+        </form>            
+        <div class="exit">
+            <p>Questions or Comments? Send us feedback here:</p>
+            <textarea name="name" id="textblock" rows="8" cols="80"></textarea>
+        </div>
     </body>
-</html> 
+</html>

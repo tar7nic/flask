@@ -1,0 +1,31 @@
+body{
+    background-color: #808080 ;
+}
+
+h1{
+    border: 1px, solid;
+    border-color: black;
+    text-align: center;
+}
+
+h2{
+    color: rgb(122, 11, 122);
+}
+
+input{
+    border: 3px, darkblue, solid;
+}
+
+#textblock{
+    border: 2px solid black;
+    width: 700px;
+    height: 200px;
+}
+
+a{
+    color: rgb(39, 116, 39);
+}
+
+body{
+    font-family: 'Aldrich', sans-serif;
+}
