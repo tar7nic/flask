@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+</head>
+<body>
+    <!-- <ul> -->
+        <!-- {% for item in mylist %} Test 1
+        <li>{{item}}</li>
+        {% endfor %} -->
+        
+        <!-- {% for name in puppies %} Test 2
+        <li>{{name}}</li>
+        {%endfor%} -->
+    <!-- </ul> -->
+
+    <!-- {% if 'Snuffy' in puppies %} Test 2 Condition
+        <p>Found you Snuffy</p>
+    {% else %}
+        <p>Hmm... Snuffy is not in this list.</p>
+    {% endif%} -->
+    
+    <!-- Test 3 -->
+    {%if user_login%}
+        <p>Welcome back, you are now logged in!</p>
+    <!-- {%elif%}
+        <p>Some other Condition</p> -->
+    {%else%}
+        <p>Please log in!</p>
+    {%endif%}
+
+</body>
+</html>
